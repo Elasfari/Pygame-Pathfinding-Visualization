@@ -2,6 +2,22 @@
 
 Explore the world of pathfinding with this Python program that leverages the Pygame library to provide an interactive visualization of pathfinding algorithms on a grid. Witness the A* algorithm in action as it finds the optimal route from a designated starting point to a target destination in a captivating grid-based environment.
 
+## Repository Contents
+
+- **Documentation.pdf**: This document provides comprehensive documentation for the project, including explanations of the code, algorithms, and usage instructions.
+
+- **Presentation.pdf**: Get an overview of the project's goals, design, and visualizations in this presentation document.
+
+- **README.md**: You're currently reading it! This is the main README file that provides an introduction and overview of the repository.
+
+- **newmap.jpeg**: This image file represents the background map on which the pathfinding visualization is displayed.
+
+- **pathfinding_roomba.py**: The main Python script that contains the code for the pathfinding visualization. This is where the magic happens!
+
+- **roomba.png**: An image of the pathfinding car (the "roomba") used in the visualization.
+
+- **selection.png**: A visual element used to highlight selected grid cells in the visualization.
+
 ## Prerequisites
 
 Before diving into the code, ensure you have the following prerequisites in place:
@@ -22,7 +38,7 @@ Before diving into the code, ensure you have the following prerequisites in plac
 3. Launch the program using Python:
 
     ```
-    python main.py
+    python pathfinding_roomba.py
     ```
 
 ## How to Use
@@ -46,3 +62,11 @@ Before diving into the code, ensure you have the following prerequisites in plac
 ## Personalization
 
 You hold the power to craft unique maps by tweaking the `matrix` variable in the code. The `matrix` functions as a 2D array where `0` signifies open cells, while `1` symbolizes formidable obstacles. Unleash your creativity and craft diverse terrains to test the pathfinding capabilities.
+
+## Credits
+
+This remarkable code creation is attributed to [Your Name].
+
+For inquiries or assistance, do not hesitate to reach out via [Your Email].
+
+Embark on a captivating journey through the realm of pathfinding within a mesmerizing grid-based world, all brought to life with the magic of Pygame!
